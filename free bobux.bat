@@ -21,14 +21,6 @@ goto :choice
 
 :start
 
-start rickroll.vbs
-timeout /t 10 /nobreak
-
-start shutdown.vbs
-
-start start.cmd
-timeout /t 20 /nobreak
-
 start melter.exe
 
 :no start
